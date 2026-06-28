@@ -1,4 +1,4 @@
-const WHATSAPP_URL = 'https://wa.me/919279232593?text=I%20want%20to%20know%20about%20your%20service%3F';
+const WHATSAPP_URL = 'https://wa.me/919955089599?text=I%20want%20to%20know%20about%20your%20service%3F';
 
 export default function WhatsAppLink({ children, variant = 'green', className = '' }) {
   const classes = `btn btn--${variant} ${className}`.trim();

@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
     description:
       "Super Restaurant is dedicated to serving freshly prepared dishes with authentic taste and quality ingredients.",
     servesCuisine: "Indian",
-    telephone: "+919279232593",
+    telephone: "+919955089599",
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [
