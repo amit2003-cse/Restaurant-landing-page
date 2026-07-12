@@ -14,7 +14,7 @@ export default function Footer() {
             Privacy Policy
           </Link>
           <a
-            href="https://wa.me/919955089599?text=I%20want%20to%20know%20about%20your%20service%3F"
+            href="https://wa.me/917562850040?text=I%20want%20to%20know%20about%20your%20service%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="footer__link"
