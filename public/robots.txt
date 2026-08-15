@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /_next/
-Sitemap: https://osgrestaurant.com/sitemap.xml
+Sitemap: https://clubosgrestaurant.com/sitemap.xml

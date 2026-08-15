@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer" id="footer">
       <div className="footer__content">
         <p className="footer__text">
-          &copy; {year} OSG. All rights reserved.
+          &copy; {year} ClubOSG. All rights reserved.
         </p>
         <div className="footer__links">
           <Link href="/privacy-policy" className="footer__link">

@@ -7,16 +7,16 @@ export default function Hero() {
       <div className="section__container">
         <Image
           src="/images/logo.png"
-          alt="OSG Logo"
+          alt="ClubOSG Logo"
           width={80}
           height={80}
           className="hero__logo"
           priority
         />
-        <h1 className="hero__title">OSG</h1>
+        <h1 className="hero__title">ClubOSG</h1>
         <p className="hero__subtitle">Fast Service</p>
         <p className="hero__description">
-          Experience delicious food crafted with authentic recipes and fresh ingredients. OSG
+          Experience delicious food crafted with authentic recipes and fresh ingredients. ClubOSG
           offers a comfortable dining experience for families, friends, and food lovers
           who enjoy quality taste.
         </p>

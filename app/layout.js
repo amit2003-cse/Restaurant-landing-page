@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "OSG — Authentic Indian Food | Fast Service & 5% Discount",
+  title: "ClubOSG — Authentic Indian Food | Fast Service & 5% Discount",
   description:
-    "Order delicious food from OSG. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
+    "Order delicious food from ClubOSG. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
   keywords: [
-    "OSG",
+    "ClubOSG",
     "Indian restaurant",
     "authentic Indian food",
     "order food online",
@@ -30,19 +30,19 @@ export const metadata = {
     "restaurant near me",
     "WhatsApp food order",
   ],
-  authors: [{ name: "OSG" }],
-  creator: "OSG",
+  authors: [{ name: "ClubOSG" }],
+  creator: "ClubOSG",
   openGraph: {
-    title: "OSG — Authentic Indian Food | Fast Service",
+    title: "ClubOSG — Authentic Indian Food | Fast Service",
     description:
       "Experience delicious food crafted with authentic recipes. Order on WhatsApp & get 5% discount!",
     type: "website",
     locale: "en_IN",
-    siteName: "OSG",
+    siteName: "ClubOSG",
   },
   twitter: {
     card: "summary_large_image",
-    title: "OSG — Authentic Indian Food",
+    title: "ClubOSG — Authentic Indian Food",
     description:
       "Authentic Indian dishes, fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
   },
@@ -63,9 +63,9 @@ export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    name: "OSG",
+    name: "ClubOSG",
     description:
-      "OSG is dedicated to serving freshly prepared dishes with authentic taste and quality ingredients.",
+      "ClubOSG is dedicated to serving freshly prepared dishes with authentic taste and quality ingredients.",
     servesCuisine: "Indian",
     telephone: "+917562850040",
     openingHoursSpecification: {

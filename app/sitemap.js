@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://osgrestaurant.com';
+  const baseUrl = 'https://clubosgrestaurant.com';
 
   return [
     {
