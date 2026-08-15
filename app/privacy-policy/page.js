@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
       <p>
         If you have any questions about this Privacy Policy, please contact us via{' '}
         <a
-          href="https://wa.me/917562850040?text=I%20want%20to%20know%20about%20your%20service%3F"
+          href="https://wa.me/15625440187?text=I%20want%20to%20know%20about%20your%20service%3F"
           target="_blank"
           rel="noopener noreferrer"
         >

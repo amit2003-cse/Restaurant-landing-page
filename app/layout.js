@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
     description:
       "ClubOSG is dedicated to serving freshly prepared dishes with authentic taste and quality ingredients.",
     servesCuisine: "Indian",
-    telephone: "+917562850040",
+    telephone: "+15625440187",
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [
