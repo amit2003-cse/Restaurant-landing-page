@@ -1,27 +1,27 @@
 /* ===== DESIGN TOKENS ===== */
 :root {
-  --bg-primary: #1a0f0a;
-  --bg-section-alt: #231510;
-  --bg-card: #2a1a12;
-  --bg-footer: #0f0906;
+  --bg-primary: #fdfbfc;
+  --bg-section-alt: #f6f4ee;
+  --bg-card: #ffffff;
+  --bg-footer: #151413;
 
-  --text-primary: #ffffff;
-  --text-secondary: #c4b5a5;
-  --text-muted: #8a7b6b;
+  --text-primary: #1a1614;
+  --text-secondary: #433f3d;
+  --text-muted: #807a74;
 
-  --accent-gold: #d4a96a;
-  --accent-gold-light: #e8c892;
-  --accent-green: #25D366;
-  --accent-green-dark: #1da851;
+  --accent-gold: #b58d53;
+  --accent-gold-light: #cfa86e;
+  --accent-green: #128c7e;
+  --accent-green-dark: #075e54;
 
-  --btn-dark-bg: #2a2a2a;
-  --btn-gold-bg: #d4a96a;
+  --btn-dark-bg: #151413;
+  --btn-gold-bg: #b58d53;
 
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-card: rgba(212, 169, 106, 0.15);
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --border-card: rgba(181, 141, 83, 0.12);
 
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
-  --shadow-fab: 0 4px 20px rgba(37, 211, 102, 0.4);
+  --shadow-card: 0 10px 30px rgba(181, 141, 83, 0.05), 0 1px 8px rgba(0, 0, 0, 0.02);
+  --shadow-fab: 0 8px 24px rgba(12, 140, 126, 0.25);
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -161,13 +161,13 @@ p {
 
 .btn--dark {
   background-color: var(--btn-dark-bg);
-  color: var(--text-primary);
+  color: #ffffff;
   border: 1px solid var(--border-subtle);
 }
 
 .btn--dark:hover {
-  background-color: #383838;
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: #2b2927;
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 .btn--green {
@@ -177,17 +177,17 @@ p {
 
 .btn--green:hover {
   background-color: var(--accent-green-dark);
-  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+  box-shadow: 0 4px 16px rgba(18, 140, 126, 0.3);
 }
 
 .btn--gold {
   background-color: var(--btn-gold-bg);
-  color: #1a0f0a;
+  color: #ffffff;
 }
 
 .btn--gold:hover {
   background-color: var(--accent-gold-light);
-  box-shadow: 0 4px 16px rgba(212, 169, 106, 0.3);
+  box-shadow: 0 4px 16px rgba(181, 141, 83, 0.3);
 }
 
 .btn-group {
@@ -367,7 +367,7 @@ p {
 /* ===== FOOTER ===== */
 .footer {
   background-color: var(--bg-footer);
-  border-top: 1px solid var(--border-subtle);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
   padding: 24px;
   text-align: center;
 }
@@ -384,7 +384,7 @@ p {
 
 .footer__text {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: #a8a29e;
 }
 
 .footer__links {
@@ -394,12 +394,12 @@ p {
 
 .footer__link {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: #a8a29e;
   transition: color var(--transition-fast);
 }
 
 .footer__link:hover {
-  color: var(--accent-gold);
+  color: var(--accent-gold-light);
 }
 
 /* ===== WHATSAPP FLOATING BUTTON ===== */

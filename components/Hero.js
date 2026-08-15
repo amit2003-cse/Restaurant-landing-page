@@ -7,17 +7,17 @@ export default function Hero() {
       <div className="section__container">
         <Image
           src="/images/logo.png"
-          alt="Super Restaurant Logo"
+          alt="OSG Logo"
           width={80}
           height={80}
           className="hero__logo"
           priority
         />
-        <h1 className="hero__title">Super Restaurant</h1>
+        <h1 className="hero__title">OSG</h1>
         <p className="hero__subtitle">Fast Service</p>
         <p className="hero__description">
-          Experience delicious food crafted with authentic recipes and fresh ingredients. Super
-          Restaurant offers a comfortable dining experience for families, friends, and food lovers
+          Experience delicious food crafted with authentic recipes and fresh ingredients. OSG
+          offers a comfortable dining experience for families, friends, and food lovers
           who enjoy quality taste.
         </p>
 

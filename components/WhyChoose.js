@@ -26,7 +26,7 @@ export default function WhyChoose() {
     <section className="section" id="why-choose">
       <div className="section__container fade-in">
         <hr className="section-divider" />
-        <h2>Why Choose Super Restaurant</h2>
+        <h2>Why Choose OSG</h2>
 
         <div className="features-grid">
           {features.map((f) => (

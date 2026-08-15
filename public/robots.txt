@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /_next/
-Sitemap: https://superrestaurant.com/sitemap.xml
+Sitemap: https://osgrestaurant.com/sitemap.xml

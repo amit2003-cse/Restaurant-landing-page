@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Privacy Policy — Super Restaurant',
-  description: 'Privacy Policy for Super Restaurant. Learn how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy — OSG',
+  description: 'Privacy Policy for OSG. Learn how we collect, use, and protect your personal information.',
 };
 
 export default function PrivacyPolicy() {
@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
 
       <h2>1. Introduction</h2>
       <p>
-        Super Restaurant (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy
+        OSG (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy
         Policy explains how we collect, use, disclose, and safeguard your information when you visit
         our website or contact us through WhatsApp.
       </p>
@@ -50,7 +50,7 @@ export default function PrivacyPolicy() {
       <ul>
         <li>With your explicit consent</li>
         <li>To comply with legal requirements or court orders</li>
-        <li>To protect the rights and safety of Super Restaurant and its customers</li>
+        <li>To protect the rights and safety of OSG and its customers</li>
       </ul>
 
       <h2>5. Data Security</h2>

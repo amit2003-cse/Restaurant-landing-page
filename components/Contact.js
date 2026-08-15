@@ -5,7 +5,7 @@ export default function Contact() {
     <section className="section section--alt" id="contact">
       <div className="section__container fade-in">
         <hr className="section-divider" />
-        <h2>Contact Super Restaurant</h2>
+        <h2>Contact OSG</h2>
         <p className="contact__text">
           For orders or inquiries, contact us directly through WhatsApp.
         </p>
