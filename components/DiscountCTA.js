@@ -5,7 +5,7 @@ export default function DiscountCTA() {
     <section className="section section--alt cta-section" id="order-now">
       <div className="section__container fade-in">
         <hr className="section-divider" />
-        <h2>Order Now &amp; Get 15% Discount</h2>
+        <h2>Order Now &amp; Get 5% Discount</h2>
         <p>
           Order your favorite dishes directly through WhatsApp and enjoy a special discount on your order.
         </p>

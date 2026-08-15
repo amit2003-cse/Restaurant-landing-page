@@ -23,7 +23,7 @@ export default function Hero() {
 
         <div className="btn-group">
           <WhatsAppLink variant="dark">
-            <span>🎉</span> 15% Extra Discount
+            <span>🎉</span> 5% Extra Discount
           </WhatsAppLink>
           <WhatsAppLink variant="green">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

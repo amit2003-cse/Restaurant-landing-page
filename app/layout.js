@@ -15,9 +15,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "OSG — Authentic Indian Food | Fast Service & 15% Discount",
+  title: "OSG — Authentic Indian Food | Fast Service & 5% Discount",
   description:
-    "Order delicious food from OSG. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 15% discount!",
+    "Order delicious food from OSG. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
   keywords: [
     "OSG",
     "Indian restaurant",
@@ -35,7 +35,7 @@ export const metadata = {
   openGraph: {
     title: "OSG — Authentic Indian Food | Fast Service",
     description:
-      "Experience delicious food crafted with authentic recipes. Order on WhatsApp & get 15% discount!",
+      "Experience delicious food crafted with authentic recipes. Order on WhatsApp & get 5% discount!",
     type: "website",
     locale: "en_IN",
     siteName: "OSG",
@@ -44,7 +44,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "OSG — Authentic Indian Food",
     description:
-      "Authentic Indian dishes, fast service, fresh ingredients. Order on WhatsApp & get 15% discount!",
+      "Authentic Indian dishes, fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
   },
   robots: {
     index: true,
