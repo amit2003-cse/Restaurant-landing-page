@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import WhatsAppLink from './WhatsAppLink';
-import { SITE_NAME } from '@/lib/config';
+import { SITE_NAME, DISCOUNT_PERCENT } from '@/lib/config';
 
 export default function Hero() {
   return (
@@ -24,7 +24,7 @@ export default function Hero() {
 
         <div className="btn-group">
           <WhatsAppLink variant="dark">
-            <span>🎉</span> 5% Extra Discount
+            <span>🎉</span> {DISCOUNT_PERCENT}% Extra Discount
           </WhatsAppLink>
           <WhatsAppLink variant="green">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

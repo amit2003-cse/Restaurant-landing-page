@@ -1,6 +1,6 @@
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { SITE_NAME, WHATSAPP_NUMBER } from "@/lib/config";
+import { SITE_NAME, WHATSAPP_NUMBER, DISCOUNT_PERCENT } from "@/lib/config";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -16,8 +16,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: `${SITE_NAME} — Authentic Indian Food | Fast Service & 5% Discount`,
-  description: `Order delicious food from ${SITE_NAME}. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 5% discount!`,
+  title: `${SITE_NAME} — Authentic Indian Food | Fast Service & ${DISCOUNT_PERCENT}% Discount`,
+  description: `Order delicious food from ${SITE_NAME}. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get ${DISCOUNT_PERCENT}% discount!`,
   keywords: [
     SITE_NAME,
     "Indian restaurant",
@@ -35,7 +35,7 @@ export const metadata = {
   openGraph: {
     title: `${SITE_NAME} — Authentic Indian Food | Fast Service`,
     description:
-      "Experience delicious food crafted with authentic recipes. Order on WhatsApp & get 5% discount!",
+      `Experience delicious food crafted with authentic recipes. Order on WhatsApp & get ${DISCOUNT_PERCENT}% discount!`,
     type: "website",
     locale: "en_IN",
     siteName: SITE_NAME,
@@ -44,7 +44,7 @@ export const metadata = {
     card: "summary_large_image",
     title: `${SITE_NAME} — Authentic Indian Food`,
     description:
-      "Authentic Indian dishes, fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
+      `Authentic Indian dishes, fast service, fresh ingredients. Order on WhatsApp & get ${DISCOUNT_PERCENT}% discount!`,
   },
   robots: {
     index: true,
