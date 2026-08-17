@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import WhatsAppLink from './WhatsAppLink';
+import { SITE_NAME } from '@/lib/config';
 
 export default function Hero() {
   return (
@@ -7,17 +8,17 @@ export default function Hero() {
       <div className="section__container">
         <Image
           src="/images/logo.png"
-          alt="ClubOSG Logo"
+          alt={`${SITE_NAME} Logo`}
           width={80}
           height={80}
           className="hero__logo"
           priority
         />
-        <h1 className="hero__title">ClubOSG</h1>
+        <h1 className="hero__title">{SITE_NAME}</h1>
         <p className="hero__subtitle">Fast Service</p>
         <p className="hero__description">
-          Experience delicious food crafted with authentic recipes and fresh ingredients. ClubOSG
-          offers a comfortable dining experience for families, friends, and food lovers
+          Experience delicious food crafted with authentic recipes and fresh ingredients. {SITE_NAME}
+          {' '}offers a comfortable dining experience for families, friends, and food lovers
           who enjoy quality taste.
         </p>
 

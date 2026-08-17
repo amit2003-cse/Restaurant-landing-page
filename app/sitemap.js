@@ -1,5 +1,7 @@
+import { SITE_DOMAIN } from '@/lib/config';
+
 export default function sitemap() {
-  const baseUrl = 'https://clubosgrestaurant.com';
+  const baseUrl = `https://${SITE_DOMAIN}`;
 
   return [
     {

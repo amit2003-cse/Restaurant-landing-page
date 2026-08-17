@@ -1,6 +1,8 @@
+import { SITE_NAME, WHATSAPP_URL } from '@/lib/config';
+
 export const metadata = {
-  title: 'Privacy Policy — ClubOSG',
-  description: 'Privacy Policy for ClubOSG. Learn how we collect, use, and protect your personal information.',
+  title: `Privacy Policy — ${SITE_NAME}`,
+  description: `Privacy Policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
 };
 
 export default function PrivacyPolicy() {
@@ -11,7 +13,7 @@ export default function PrivacyPolicy() {
 
       <h2>1. Introduction</h2>
       <p>
-        ClubOSG (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy
+        {SITE_NAME} (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy
         Policy explains how we collect, use, disclose, and safeguard your information when you visit
         our website or contact us through WhatsApp.
       </p>
@@ -50,7 +52,7 @@ export default function PrivacyPolicy() {
       <ul>
         <li>With your explicit consent</li>
         <li>To comply with legal requirements or court orders</li>
-        <li>To protect the rights and safety of ClubOSG and its customers</li>
+        <li>To protect the rights and safety of {SITE_NAME} and its customers</li>
       </ul>
 
       <h2>5. Data Security</h2>
@@ -92,7 +94,7 @@ export default function PrivacyPolicy() {
       <p>
         If you have any questions about this Privacy Policy, please contact us via{' '}
         <a
-          href="https://wa.me/15625440187?text=I%20want%20to%20know%20about%20your%20service%3F"
+          href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
         >

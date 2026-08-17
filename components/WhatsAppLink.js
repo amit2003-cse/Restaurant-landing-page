@@ -1,4 +1,4 @@
-const WHATSAPP_URL = 'https://wa.me/15625440187?text=I%20want%20to%20know%20about%20your%20service%3F';
+import { WHATSAPP_URL } from '@/lib/config';
 
 export default function WhatsAppLink({ children, variant = 'green', className = '' }) {
   const classes = `btn btn--${variant} ${className}`.trim();

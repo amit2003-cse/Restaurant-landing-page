@@ -1,5 +1,6 @@
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { SITE_NAME, WHATSAPP_NUMBER } from "@/lib/config";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -15,11 +16,10 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "ClubOSG — Authentic Indian Food | Fast Service & 5% Discount",
-  description:
-    "Order delicious food from ClubOSG. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
+  title: `${SITE_NAME} — Authentic Indian Food | Fast Service & 5% Discount`,
+  description: `Order delicious food from ${SITE_NAME}. Enjoy authentic Indian dishes like Paneer Butter Masala, Dal Makhani & more. Fast service, fresh ingredients. Order on WhatsApp & get 5% discount!`,
   keywords: [
-    "ClubOSG",
+    SITE_NAME,
     "Indian restaurant",
     "authentic Indian food",
     "order food online",
@@ -30,19 +30,19 @@ export const metadata = {
     "restaurant near me",
     "WhatsApp food order",
   ],
-  authors: [{ name: "ClubOSG" }],
-  creator: "ClubOSG",
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
   openGraph: {
-    title: "ClubOSG — Authentic Indian Food | Fast Service",
+    title: `${SITE_NAME} — Authentic Indian Food | Fast Service`,
     description:
       "Experience delicious food crafted with authentic recipes. Order on WhatsApp & get 5% discount!",
     type: "website",
     locale: "en_IN",
-    siteName: "ClubOSG",
+    siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
-    title: "ClubOSG — Authentic Indian Food",
+    title: `${SITE_NAME} — Authentic Indian Food`,
     description:
       "Authentic Indian dishes, fast service, fresh ingredients. Order on WhatsApp & get 5% discount!",
   },
@@ -63,11 +63,10 @@ export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
-    name: "ClubOSG",
-    description:
-      "ClubOSG is dedicated to serving freshly prepared dishes with authentic taste and quality ingredients.",
+    name: SITE_NAME,
+    description: `${SITE_NAME} is dedicated to serving freshly prepared dishes with authentic taste and quality ingredients.`,
     servesCuisine: "Indian",
-    telephone: "+15625440187",
+    telephone: `+${WHATSAPP_NUMBER}`,
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [

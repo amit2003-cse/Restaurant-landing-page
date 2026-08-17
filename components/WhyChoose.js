@@ -1,3 +1,5 @@
+import { SITE_NAME } from '@/lib/config';
+
 const features = [
   {
     icon: '🥬',
@@ -26,7 +28,7 @@ export default function WhyChoose() {
     <section className="section" id="why-choose">
       <div className="section__container fade-in">
         <hr className="section-divider" />
-        <h2>Why Choose ClubOSG</h2>
+        <h2>Why Choose {SITE_NAME}</h2>
 
         <div className="features-grid">
           {features.map((f) => (
